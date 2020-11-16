@@ -1,0 +1,125 @@
+* {
+font-family:verdana,sans-serif;
+font-size :14pt;
+box-sizing: border-box;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+  
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+
+  padding: 10px;
+  flex: 50%;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+body {
+ width :700px;
+ margin :20px auto;
+ background:#f8f8f8;
+ border :1px solid #888;
+ width: 100%;
+}
+html {
+ background:#fff
+}
+img {
+ border :1px solid black;
+ margin-right :15px;
+-moz-box-shadow :2px 2px 2px #888;
+-webkit-box-shadow:2px 2px 2px #888;
+box-shadow :2px 2px 2px #888;
+}
+.username {
+ text-align :center;
+ background :#e39e00;
+ color :#344a00;
+ font-family:helvetica;
+ font-size :20pt;
+ padding :4px;
+}
+.info {
+ font-style :italic;
+ margin :40px 0px;
+ text-align :center;
+}
+.center {
+ text-align:center;
+}
+.subhead {
+ font-weight:bold;
+}
+.taken, .error {
+ color:red;
+}
+.available {
+ color:green;
+}
+.whisper {
+ font-style:italic;
+ color :#006600;
+}
+#logo {
+ font-family:Georgia;
+ font-weight:bold;
+ font-style :italic;
+ font-size :75px;
+ color: #f5e6dc;
+ 
+ }
+#robin {
+  position :relative;
+  height: 85px;
+  width: 85px;
+  object-fit: contain;
+  border :0px;
+  margin-left :-6px;
+  margin-right :0px;
+  top :17px;
+ -moz-box-shadow :0px 0px 0px;
+ -webkit-box-shadow:0px 0px 0px;
+ box-shadow :0px 0px 0px;
+
+}
+#used {
+ margin-top:50px;
+}
+
+.footer{
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  
+ 
+}
+
+
+
+
+
